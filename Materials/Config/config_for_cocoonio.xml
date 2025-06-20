@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><widget xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0" id="com.zentsoft.twofacesonemovie" version="0.0.1" android-versionCode="0">
+    <name>Film Quiz: 2 Faces 1 Movie</name>
+    <description>
+        A sample Cocoon application that responds to the deviceready event.
+    </description>
+    <author email="captaincrocus@gmail.com" href="https://cocoon.io">
+        Eldar Husseynov
+    </author>
+    <content src="index.html"/>
+    <plugin name="cordova-plugin-whitelist" version="1"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <platform name="android">
+        <allow-intent href="market:*"/>
+        <name/>
+        <icon src="res/android/36x36.png" density="ldpi"/>
+        <icon src="res/android/48x48.png" density="mdpi"/>
+        <icon src="res/android/72x72.png" density="hdpi"/>
+        <icon src="res/android/96x96.png" density="xhdpi"/>   
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+    </platform>
+    <cocoon:plugin name="com.ludei.canvasplus.android"/>
+    <preference name="Orientation" value="portrait"/>
+    <preference name="Fullscreen" value="true"/>
+    <cocoon:plugin name="cocoon-plugin-ads-android-mopub"/>
+    <cocoon:plugin name="cocoon-plugin-social-android-googleplaygames"><param xmlns="http://www.w3.org/1999/xhtml" name="APP_ID" value="212904895234" />
+</cocoon:plugin>
+    <cocoon:platform enabled="false" name="ios"/>
+</widget>
